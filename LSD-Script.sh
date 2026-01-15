@@ -33,4 +33,8 @@ echo "Aktiva Tjänster:"
 ps
 echo ""
 echo "--===NätverksInfo===--"
+echo "Din lokala IP address"
+ip add show | grep "inet"
+echo ""
+echo "Din externa IP address"
 curl ip-api.com | grep "query"
