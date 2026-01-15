@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-#
-#
+#Version 0.6
+#Skapad av Isac Lagerstöm
 echo "Startar LinuxStartupDokumenterare...."
 echo ""
 OS="$OSTYPE"
