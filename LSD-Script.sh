@@ -2,6 +2,7 @@
 #
 #Version 0.6
 #Skapad av Isac Lagerstöm
+#Testad och godkänd av Andreas Andersson
 echo "Startar LinuxStartupDokumenterare...."
 echo ""
 OS="$OSTYPE"
