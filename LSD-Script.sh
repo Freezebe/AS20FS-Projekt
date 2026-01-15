@@ -14,6 +14,7 @@ if [[  "$OS" != "linux-gnu"* ]]; then
     echo "Operativsystemet är inte Linux-gnu baserat, avbryter skriptet..."
     exit 
 fi
+
 echo "--===DatorInfo===--"
 echo "Ditt Operativsystem: $OSTYPE"
 echo ""
@@ -38,3 +39,7 @@ ip add show | grep "inet"
 echo ""
 echo "Din externa IP address"
 curl ip-api.com | grep "query"
+echo ""
+echo "Din(a) MAC-address(er)"
+cat /sys/class/net/*/address
+echo ""
